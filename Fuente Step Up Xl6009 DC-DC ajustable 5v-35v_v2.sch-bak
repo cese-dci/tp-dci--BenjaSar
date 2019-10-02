@@ -1,13 +1,14 @@
 EESchema Schematic File Version 4
+LIBS:Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Fuente Step Up Xl6009 DC-DC ajustable 5v-35v"
+Date "2019-09-22"
+Rev "0a"
+Comp "Fabian Sarmiento"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -41,7 +42,7 @@ F 3 "~" H 7150 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Fuente~Step~Up~Xl6009~DC-DC~ajustable~5v-35v_v2:XL6009E1 U1
+L XL6009:XL6009E1 U1
 U 1 1 5D87A8A4
 P 5450 3050
 F 0 "U1" H 5994 3096 50  0000 L CNN
@@ -205,6 +206,4 @@ Wire Wire Line
 Connection ~ 5800 4000
 Wire Wire Line
 	5800 4000 5800 3900
-Text Notes 7450 7500 0    50   ~ 10
-Fuente Step Up Xl6009 DC-DC ajustable 5v-35v
 $EndSCHEMATC
