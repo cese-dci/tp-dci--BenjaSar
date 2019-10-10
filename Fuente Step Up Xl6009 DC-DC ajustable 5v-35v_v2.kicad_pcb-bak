@@ -234,7 +234,7 @@
   )
 
   (module SS34:SMB (layer F.Cu) (tedit 0) (tstamp 5D9F44AE)
-    (at 98.5 82)
+    (at 122.7 80.705801)
     (descr <B>DIODE</B>)
     (path /5D876D1D)
     (attr smd)
@@ -358,8 +358,8 @@
     )
   )
 
-  (module Resistor_SMD:R_1806_4516Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5D9F49E0)
-    (at 141.5 81)
+  (module Resistor_SMD:R_1806_4516Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 5D9F450E)
+    (at 130.075001 79.925001)
     (descr "Resistor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D8778C4)
@@ -395,7 +395,7 @@
   )
 
   (module Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical (layer F.Cu) (tedit 5A3D4994) (tstamp 5D9F4525)
-    (at 129 87)
+    (at 115.5 88.5)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (path /5D8A1F15)

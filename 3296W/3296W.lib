@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 3296W
+#
+DEF 3296W U 0 40 N N 1 L N
+F0 "U" -150 100 50 V V L BNN
+F1 "3296W" -50 100 50 V V L BNN
+F2 "3296W-5.08ADDED" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "" 0 0 50 H I L BNN
+F5 "None" 0 0 50 H I L BNN
+F6 "Bourns" 0 0 50 H I L BNN
+F7 "Unavailable" 0 0 50 H I L BNN
+F8 "3296-W" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -50 0 -25 50 N
+P 2 0 0 10 -25 50 25 -50 N
+P 2 0 0 10 25 -50 75 50 N
+P 2 0 0 10 75 50 125 -50 N
+P 2 0 0 10 125 -50 175 50 N
+P 2 0 0 10 175 50 200 0 N
+P 2 0 0 10 75 100 100 50 N
+P 2 0 0 10 100 50 125 100 N
+X P$1 P$3 -250 0 200 R 40 40 0 0 B 
+X P$2 P$2 100 250 200 D 40 40 0 0 B 
+X P$3 P$1 400 0 200 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
