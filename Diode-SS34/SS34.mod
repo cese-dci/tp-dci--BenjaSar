@@ -1,0 +1,107 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+SMB
+SMA
+$EndINDEX
+$MODULE SMB
+Po 0 0 0 15 00000000 00000000 ~~
+Li SMB
+Cd <B>DIODE</B>
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.381 -2.794 1 1 0 0.05 N V 21 "SMB"
+T1 1.016 2.794 1 1 0 0.05 N V 21 "VAL**"
+DS -2.2606 -1.905 2.2606 -1.905 0.1016 21
+DS -2.2606 1.905 2.2606 1.905 0.1016 21
+DS -2.2606 1.905 -2.2606 -1.905 0.1016 27
+DS 2.2606 1.905 2.2606 -1.905 0.1016 27
+DS 0.193 -1 -0.83 0 0.2032 21
+DS -0.83 0 0.193 1 0.2032 21
+DS 0.193 1 0.193 -1 0.2032 21
+DP 0 0 0 0 4 0 27
+Dl -2.794 -1.0922
+Dl -2.2606 -1.0922
+Dl -2.2606 1.0922
+Dl -2.794 1.0922
+DP 0 0 0 0 4 0 27
+Dl 2.2606 -1.0922
+Dl 2.794 -1.0922
+Dl 2.794 1.0922
+Dl 2.2606 1.0922
+DP 0 0 0 0 4 0 27
+Dl -1.35 -1.9
+Dl -0.8 -1.9
+Dl -0.8 1.9
+Dl -1.35 1.9
+$PAD
+Sh "C" R 2.4 2.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.2 0
+$EndPAD
+$PAD
+Sh "A" R 2.4 2.4 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 2.2 0
+$EndPAD
+$EndMODULE SMB
+$MODULE SMA
+Po 0 0 0 15 00000000 00000000 ~~
+Li SMA
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.119 -2.794 1 1 0 0.05 N V 21 "SMA"
+T1 0.516 2.794 1 1 0 0.05 N V 21 "VAL**"
+DS -2.5 1.5 2 1.5 0.127 21
+DS 2 1.5 2 -1.5 0.127 21
+DS 2 -1.5 -2.5 -1.5 0.127 21
+DS -2.5 -1.5 -2.5 1.5 0.127 21
+DS -0.007 -1 -1.03 0 0.2032 21
+DS -1.03 0 -0.007 1 0.2032 21
+DS -0.007 1 -0.007 -1 0.2032 21
+DP 0 0 0 0 4 0 21
+Dl -3 -0.8
+Dl -2.5 -0.8
+Dl -2.5 0.8
+Dl -3 0.8
+DP 0 0 0 0 4 0 21
+Dl 2 -0.8
+Dl 2.5 -0.8
+Dl 2.5 0.8
+Dl 2 0.8
+DP 0 0 0 0 4 0 21
+Dl -1.5 -1.5
+Dl -1 -1.5
+Dl -1 1.5
+Dl -1.5 1.5
+$PAD
+Sh "C" R 2 2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -2.25 0
+$EndPAD
+$PAD
+Sh "A" R 2 2 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.75 0
+$EndPAD
+$EndMODULE SMA

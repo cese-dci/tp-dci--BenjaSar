@@ -6,11 +6,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Fuente Step Up Xl6009 DC-DC ajustable 5v-35v"
-Date "2019-09-22"
-Rev "0a"
+Date "2019-10-18"
+Rev "0b"
 Comp "Fabian Sarmiento"
-Comment1 ""
-Comment2 ""
+Comment1 "Realizado para la materia DCI de la Esp. en Sistemas Embebidos"
+Comment2 "Replica del modulo set-up adjustable boost converter. "
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -74,7 +74,7 @@ U 1 1 5D8A1F15
 P 6600 3050
 F 0 "RV1" H 6530 3004 50  0000 R CNN
 F 1 "10K" H 6530 3095 50  0000 R CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_3269W_Vertical" H 6600 3050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 6600 3050 50  0001 C CNN
 F 3 "~" H 6600 3050 50  0001 C CNN
 	1    6600 3050
 	-1   0    0    1   
@@ -206,4 +206,126 @@ Wire Wire Line
 	5800 4000 5800 3900
 Wire Wire Line
 	7100 3250 7100 3900
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5DA12BD3
+P 3900 3500
+F 0 "J1" H 3818 3175 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3818 3266 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3900 3500 50  0001 C CNN
+F 3 "~" H 3900 3500 50  0001 C CNN
+	1    3900 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5DA178E6
+P 7800 3000
+F 0 "J2" H 7718 2675 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 7718 2766 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 7800 3000 50  0001 C CNN
+F 3 "~" H 7800 3000 50  0001 C CNN
+	1    7800 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3050 4100 3050
+Wire Wire Line
+	4100 3050 4100 3500
+Wire Wire Line
+	4550 3900 4100 3900
+Wire Wire Line
+	4100 3900 4100 3600
+Connection ~ 4550 3900
+Wire Wire Line
+	7100 2350 7600 2350
+Wire Wire Line
+	7600 2350 7600 3000
+Connection ~ 7100 2350
+Wire Wire Line
+	7600 3100 7600 3900
+Wire Wire Line
+	7600 3900 7100 3900
+Connection ~ 7100 3900
+Text Notes 7850 3850 0    50   ~ 0
+Terminacion Superficial:\nEspesor final aproximado: 1,6mm\nTamanio de la grilla: 0,5 mm
+Text Notes 7850 3950 0    50   ~ 0
+Rango de voltaje 5Vdc a 32Vdc
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DAB2C74
+P 5300 4700
+F 0 "H1" H 5400 4746 50  0000 L CNN
+F 1 "MountingHole" H 5400 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5300 4700 50  0001 C CNN
+F 3 "~" H 5300 4700 50  0001 C CNN
+	1    5300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DAB39CE
+P 6150 4700
+F 0 "H3" H 6250 4746 50  0000 L CNN
+F 1 "MountingHole" H 6250 4655 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 4700 50  0001 C CNN
+F 3 "~" H 6150 4700 50  0001 C CNN
+	1    6150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DAB41E1
+P 5300 5000
+F 0 "H2" H 5400 5046 50  0000 L CNN
+F 1 "MountingHole" H 5400 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5300 5000 50  0001 C CNN
+F 3 "~" H 5300 5000 50  0001 C CNN
+	1    5300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DAB4871
+P 6150 5000
+F 0 "H4" H 6250 5046 50  0000 L CNN
+F 1 "MountingHole" H 6250 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6150 5000 50  0001 C CNN
+F 3 "~" H 6150 5000 50  0001 C CNN
+	1    6150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DAC4F3C
+P 5300 5300
+F 0 "FID?" H 5385 5346 50  0000 L CNN
+F 1 "Fiducial" H 5385 5255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 5300 5300 50  0001 C CNN
+F 3 "~" H 5300 5300 50  0001 C CNN
+	1    5300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DAC61E3
+P 6150 5300
+F 0 "FID?" H 6235 5346 50  0000 L CNN
+F 1 "Fiducial" H 6235 5255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 6150 5300 50  0001 C CNN
+F 3 "~" H 6150 5300 50  0001 C CNN
+	1    6150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5DAC6BFD
+P 5300 5550
+F 0 "FID?" H 5385 5596 50  0000 L CNN
+F 1 "Fiducial" H 5385 5505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 5300 5550 50  0001 C CNN
+F 3 "~" H 5300 5550 50  0001 C CNN
+	1    5300 5550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
