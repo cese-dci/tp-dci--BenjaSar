@@ -247,10 +247,6 @@ Wire Wire Line
 Wire Wire Line
 	7600 3900 7100 3900
 Connection ~ 7100 3900
-Text Notes 7850 3850 0    50   ~ 0
-Terminacion Superficial:\nEspesor final aproximado: 1,6mm\nTamanio de la grilla: 0,5 mm
-Text Notes 7850 3950 0    50   ~ 0
-Rango de voltaje 5Vdc a 32Vdc
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5DAB2C74
@@ -328,4 +324,6 @@ F 3 "~" H 5300 5550 50  0001 C CNN
 	1    5300 5550
 	1    0    0    -1  
 $EndComp
+Text Notes 8000 3850 0    50   ~ 0
+Terminacion Superficial:\nEspesor final aproximado: 1,6mm\nTamanio de la grilla: 0,5 mm\nRango de voltaje 5Vdc a 32Vdc
 $EndSCHEMATC
