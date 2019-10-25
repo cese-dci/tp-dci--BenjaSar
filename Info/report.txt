@@ -1,0 +1,9 @@
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-F_Cu.gbr" created.
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-B_Cu.gbr" created.
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-F_Paste.gbr" created.
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-B_Paste.gbr" created.
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-F_SilkS.gbr" created.
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-B_SilkS.gbr" created.
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-F_Mask.gbr" created.
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-B_Mask.gbr" created.
+Plot file "/home/fabian/Documents/SISTEMAS EMBEBIDOS/12. DCI/TP_FINAL/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2/Fuente Step Up Xl6009 DC-DC ajustable 5v-35v_v2-Edge_Cuts.gbr" created.

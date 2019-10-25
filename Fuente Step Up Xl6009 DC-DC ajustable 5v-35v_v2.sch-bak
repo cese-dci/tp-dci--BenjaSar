@@ -82,6 +82,8 @@ F 0 "RV1" H 6530 3004 50  0000 R CNN
 F 1 "10K" H 6530 3095 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical" H 6600 3050 50  0001 C CNN
 F 3 "~" H 6600 3050 50  0001 C CNN
+F 4 "3296W-103-ND" H 6600 3050 50  0001 C CNN "Field5"
+F 5 "https://www.digikey.com/product-detail/en/bourns-inc/3296W-1-103/3296W-103-ND/84523" H 6600 3050 50  0001 C CNN "Field7"
 	1    6600 3050
 	-1   0    0    1   
 $EndComp
@@ -107,8 +109,8 @@ F 0 "R1" H 6670 3596 50  0000 L CNN
 F 1 "1K" H 6670 3505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1806_4516Metric" V 6530 3550 50  0001 C CNN
 F 3 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 3550 50  0001 C CNN
-F 4 "3296W-103-ND" H 6600 3550 50  0001 C CNN "Field5"
-F 5 "https://www.digikey.com/product-detail/en/bourns-inc/3296W-1-103/3296W-103-ND/84523" H 6600 3550 50  0001 C CNN "Field7"
+F 4 "Y16361K00000T9W" H 6600 3550 50  0001 C CNN "Field5"
+F 5 "https://www.digikey.com/product-detail/en/vishay-foil-resistors-division-of-vishay-precision-group/Y16361K00000T9W/Y1636-1K-ND/2512039" H 6600 3550 50  0001 C CNN "Field7"
 	1    6600 3550
 	1    0    0    -1  
 $EndComp
@@ -136,6 +138,8 @@ F 0 "L1" V 5100 2350 50  0000 C CNN
 F 1 "330 mH" V 4900 2200 50  0000 L CNN
 F 2 "Inductor_SMD:L_12x12mm_H8mm" H 5000 2350 50  0001 C CNN
 F 3 "~" H 5000 2350 50  0001 C CNN
+F 4 "DR1050-330-R" H 5000 2350 50  0001 C CNN "Field5"
+F 5 "https://www.digikey.com/product-detail/en/eaton-electronics-division/DR1050-330-R/513-1418-1-ND/1555567" H 5000 2350 50  0001 C CNN "Field7"
 	1    5000 2350
 	0    -1   -1   0   
 $EndComp
@@ -225,6 +229,8 @@ F 0 "J1" H 3818 3175 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 3818 3266 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3900 3500 50  0001 C CNN
 F 3 "~" H 3900 3500 50  0001 C CNN
+F 4 "OSTTA024163" H 3900 3500 50  0001 C CNN "Field5"
+F 5 "https://www.digikey.com/product-detail/en/on-shore-technology-inc/OSTTA024163/ED2580-ND/614529" H 3900 3500 50  0001 C CNN "Field7"
 	1    3900 3500
 	-1   0    0    -1  
 $EndComp
@@ -236,6 +242,8 @@ F 0 "J2" H 7718 2675 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" V 7900 2950 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 7800 3000 50  0001 C CNN
 F 3 "~" H 7800 3000 50  0001 C CNN
+F 4 "OSTTA024163" H 7800 3000 50  0001 C CNN "Field5"
+F 5 "https://www.digikey.com/product-detail/en/on-shore-technology-inc/OSTTA024163/ED2580-ND/614529" H 7800 3000 50  0001 C CNN "Field7"
 	1    7800 3000
 	1    0    0    -1  
 $EndComp
@@ -336,7 +344,7 @@ F 3 "~" H 5300 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 7900 5200 0    50   ~ 0
-Terminacion Superficial:\nEspesor final aproximado: 1,6mm\nTamanio de la grilla: 0,5 mm\n\nCaracterísticas:\nVoltaje de entrada:    3V-32V (voltaje óptimo 5V-32V)\nVoltaje de salida:   5-35V Ajustable\nIntensidad máxima de entrada:  4A ( se recomienda usar disipador térmico )\nIntensidad máxima de salida: 3A\nEficiencia aproximada:   94%\nFrecuencia de trabajo:   400KHz\nRango de temperatura trabajo:  De -40 a +85 grados centígrados\nMedidas: 43mm x 21mm x 14mm
+Terminacion Superficial:\nEspesor final aproximado: 1,6mm\nTamanio de la grilla: 0,5 mm\n\nCaracterísticas:\nVoltaje de entrada: 3V-32V (voltaje óptimo 5V-32V)\nVoltaje de salida:  5-35V Ajustable\nIntensidad máxima de entrada:  4A ( se recomienda usar disipador térmico )\nIntensidad máxima de salida: 2A\nEficiencia aproximada:   94%\nFrecuencia de trabajo:   400KHz\nRango de temperatura trabajo:  De -40 a +85 grados centígrados\nMedidas: 43mm x 21mm x 14mm
 Text Notes 3600 1450 0    59   ~ 0
 Replica desarrollada: https://www.nubbeo.com.ar/fuente-step-up-xl6009-dc-dc-ajustable-5v-35v-arduino-nubbeo-549561497xJM
 $EndSCHEMATC
